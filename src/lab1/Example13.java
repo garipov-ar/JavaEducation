@@ -11,6 +11,5 @@ public class Example13 {
         int n2 = in.nextInt();
 
             System.out.println("Сумма чисел = " + (n1 + n2));
-
         }
     }

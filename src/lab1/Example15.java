@@ -12,7 +12,5 @@ public class Example15 {
 
         System.out.println("Сумма чисел = " + (n1 + n2));
         System.out.println("Разность чисел = " + (n2 - n1));
-
-
     }
 }

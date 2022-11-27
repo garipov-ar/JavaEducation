@@ -16,6 +16,5 @@ public class Example12 {
         } else {
             System.out.println("что-то не то..");
         }
-
     }
 }

@@ -14,6 +14,5 @@ public class Example14 {
 
         System.out.println(n1 + " " + n + " " + n2 + " " + n3);
 
-
     }
 }

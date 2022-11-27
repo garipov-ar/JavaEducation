@@ -12,11 +12,8 @@ public class Example7 {
         System.out.println("Введите возраст: ");
         int age = in.nextInt();
 
-
         if (age < 5 | age >21)
             System.out.println("Пользователю " + name + " " + age + " года" );
-
-
 
     }
 
