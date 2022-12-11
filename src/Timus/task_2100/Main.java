@@ -32,25 +32,16 @@ public class Main {
                     numberOfPair++;
                 }
             }
-
             int result;
-
             int guests = (marshalAndLilly + numberOfPair +numberOfFriends);
-
             if(guests == 13){
                 result = (guests * 100) + 100;
             }else {
                 result = guests * 100;
             }
-
             System.out.println(result);
         } catch (IOException exception) {
             exception.printStackTrace();
         }
-
-
-
-
     }
-
 }
