@@ -18,7 +18,6 @@ public class main {
         for (int i = 0; i < chars.length; i++) {
             ints[i] = chars[i] + key;
         }
-
         for (int i = 0; i < chars.length; i++) {
             chars[i] = (char) ints[i];
         }
