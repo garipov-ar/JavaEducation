@@ -1,4 +1,4 @@
-package lab7;
+package lab7.task5;
 /*
 Напишите программу, в которой есть суперкласс с защищенным текстовым полем,
 конструктор с текстовым параметром и метод, при вызове которого в консольном окне
@@ -14,4 +14,12 @@ package lab7;
 производного класса.
  */
 public class task5 {
+    public static void main(String[] args) {
+        superClass superClass = new superClass("Супер класс");
+        superClass.toString();
+        subClass1 subClass1 = new subClass1("Первый подкласс", 1);
+        subClass1.toString();
+        subClass2 subClass2 = new subClass2("Второй подкласс", 'В');
+        subClass2.toString();
+    }
 }

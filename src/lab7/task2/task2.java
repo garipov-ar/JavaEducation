@@ -1,4 +1,4 @@
-package lab7;
+package lab7.task2;
 /*
 Напишите программу, в которой есть суперкласс с приватным текстовым полем. В
 базовом классе должен быть метод для присваивания значения полю: без параметров и с
@@ -12,5 +12,18 @@ package lab7;
 (целочисленный и текстовый).
  */
 public class task2 {
-    private String str1;
+    public static void main(String[] args) {
+        Main sClass = new Main();
+        sClass.toString();
+        Main sClass1 = new Main("Текст супер класса ");
+        sClass1.toString();
+        task2Sub subClass1 = new task2Sub();
+        subClass1.toString();
+        task2Sub subClass2 = new task2Sub("Текст подкласса 1 ");
+        subClass2.toString();
+        task2Sub subClass3 = new task2Sub(1);
+        subClass3.toString();
+        task2Sub subClass4 = new task2Sub("Текст подкласса 2", 1);
+        subClass4.toString();
+    }
 }

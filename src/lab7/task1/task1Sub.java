@@ -1,4 +1,4 @@
-package lab7;
+package lab7.task1;
 
 public class task1Sub extends task1 {
     private String str2;
