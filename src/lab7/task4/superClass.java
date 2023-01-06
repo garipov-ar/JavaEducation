@@ -22,7 +22,8 @@ public class superClass {
     public String toString() {
         String NameField;
         NameField =
-                "Класс: " + this.getClass().getSimpleName() + "\n" + "Символ: " + this.getCh();
+                "Класс: " + this.getClass().getSimpleName()
+                        + "\n" + "Символ: " + this.getCh();
         return NameField;
     }
 }

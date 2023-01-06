@@ -1,20 +1,16 @@
 package lab7.task1;
-
 public class task1Sub extends task1 {
     private String str2;
     private String str3;
-
     //Конструктор с одним параметром
     task1Sub(String strEx) {
         super(strEx);
     }
-
     //Конструктор с двумя парамтерами
     task1Sub(String strEx2, String strEx3) {
         this.str2 = strEx2;
         this.str3 = strEx3;
     }
-
     @Override
     public String toString() {
         String ClassNameAndFieldValue;

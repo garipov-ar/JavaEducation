@@ -12,7 +12,8 @@ public class Main {
         String subClassName = subClassObject1.toString();
         System.out.println(subClassName);
 
-        task1 subClassObject2 = new task1Sub("передал в конструктор подкласса", "где два параметра");
+        task1 subClassObject2 = new task1Sub("передал в конструктор подкласса",
+                "где два параметра");
         String subClassName2 = subClassObject2.toString();
         System.out.println(subClassName2);
     }

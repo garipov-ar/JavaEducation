@@ -16,7 +16,8 @@ public class subClass2 extends superClass {
     public String toString() {
         String Field;
         Field =
-                this.getClass().getSimpleName() + "\n" + this.getStr() + "\n" + getChar();
+                this.getClass().getSimpleName() + "\n" + this.getStr() +
+                        "\n" + getChar();
         System.out.println(Field);
         return super.toString() + Field;
     }

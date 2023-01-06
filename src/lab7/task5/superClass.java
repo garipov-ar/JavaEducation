@@ -13,7 +13,8 @@ public class superClass {
 
     public String toString() {
         String Field;
-        Field =  this.getClass().getSimpleName() + "\n" + this.getStr();
+        Field =  this.getClass().getSimpleName() +
+                "\n" + this.getStr();
         System.out.println(Field);
         return super.toString() + Field;
     }

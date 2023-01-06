@@ -25,7 +25,8 @@ public class subClass1 extends superClass {
     public String toString() {
         String ClassNameAndFieldValue;
         ClassNameAndFieldValue =
-                "\n" +  "Имя класса: " + this.getClass().getSimpleName() + "\n" +
+                "\n" +  "Имя класса: " + this.getClass().getSimpleName()
+                        + "\n" +
                         "Строка = " + this.getStr();
         return super.toString() + ClassNameAndFieldValue;
     }

@@ -1,9 +1,7 @@
 package lab7.task2;
-
 public class task2Sub extends Main {
     private int num;
     private String str;
-
     task2Sub() {
         setString();
     }
@@ -17,7 +15,6 @@ public class task2Sub extends Main {
         setString(str);
         setInt(num);
     }
-
     public void setInt(int num) {
         this.num = num;
     }
@@ -40,7 +37,6 @@ public class task2Sub extends Main {
         System.out.println(num);
         System.out.println(str);
     }
-
     public String toString() {
         String ClassNameAndFieldValue = "task2Sub { " + "str2 = \"" + getString() + '\"' + " string.length = " + "\"" + strLength() + "\"}"
                 + "\n \n task2Sub { " + "int1 = \"" + getInt() + "\"}";

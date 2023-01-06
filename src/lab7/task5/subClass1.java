@@ -13,7 +13,8 @@ public class subClass1 extends superClass {
 
     public String toString() {
         String Field;
-        Field = this.getClass().getSimpleName() + "\n" + getStr() + "\n" + getInt();
+        Field = this.getClass().getSimpleName() +
+                "\n" + getStr() + "\n" + getInt();
         System.out.println(Field);
         return super.toString() + Field;
     }
