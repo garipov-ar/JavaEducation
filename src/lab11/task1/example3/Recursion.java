@@ -18,7 +18,6 @@ public class Recursion {
             System.out.print(" ");
         }
     }
-
     public static void main(String[] args) {
         m(1);
     }
